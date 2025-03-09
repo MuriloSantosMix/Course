@@ -18,8 +18,8 @@ namespace Course
             int codigo = 5290;
             char genero = 'M';
 
-            Double preco1 = 2100.0;
-            Double preco2 = 650.50;
+            double preco1 = 2100.0;
+            double preco2 = 650.50;
             double media = 53.234567;
 
             Console.WriteLine("Produtos:");
@@ -30,7 +30,7 @@ namespace Course
 
             Console.WriteLine($" medida com oito casas decimais:{media.ToString("F8")} ");
             Console.WriteLine($" Arredondado: {media.ToString("F3")} ");
-            //Console.WriteLine($" Separador decimal invariant culture: {media.ToString("F3", CultureInfo.InvariantCulture)}");
+            Console.WriteLine($" Separador decimal invariant culture: {media.ToString("F3", CultureInfo.InvariantCulture)}");
 
 
 
