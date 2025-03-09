@@ -30,7 +30,7 @@ namespace Course
 
             Console.WriteLine($" medida com oito casas decimais:{media.ToString("F8")} ");
             Console.WriteLine($" Arredondado: {media.ToString("F3")} ");
-            Console.WriteLine($" Separador decimal invariant culture: {media.ToString("F3", CultureInfo.InvariantCulture)}");
+            //Console.WriteLine($" Separador decimal invariant culture: {media.ToString("F3", CultureInfo.InvariantCulture)}");
 
 
 
